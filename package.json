@@ -1,0 +1,19 @@
+{
+  "name": "jsm_xx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/tools.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grechka3/jsm_xx.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grechka3/jsm_xx/issues"
+  },
+  "homepage": "https://github.com/grechka3/jsm_xx#readme"
+}
