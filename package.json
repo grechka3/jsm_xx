@@ -1,6 +1,6 @@
 {
   "name": "jsm_xx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "src/tools.cjs",
   "scripts": {
@@ -8,13 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grechka3/jsm_xx.git"
+    "url": "https://github.com/grechka3/jsm_xx.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/grechka3/jsm_xx/issues"
-  },
   "homepage": "https://github.com/grechka3/jsm_xx#readme",
   "dependencies": {
     "moment": "^2.28.0"
