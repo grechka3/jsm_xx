@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/grechka3/jsm_xx/issues"
   },
-  "homepage": "https://github.com/grechka3/jsm_xx#readme"
+  "homepage": "https://github.com/grechka3/jsm_xx#readme",
+  "dependencies": {
+    "moment": "^2.28.0"
+  }
 }
