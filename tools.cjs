@@ -220,3 +220,16 @@ exports.toFixed = x =>
    }
    return x
 }
+
+exports.median = (arr) =>
+{
+   arr.sort(function (a, b)
+   {
+      return a - b;
+   });
+
+
+   let lowMiddle = Math.floor((arr.length - 1) / 2)
+   let highMiddle = Math.ceil((arr.length - 1) / 2)
+   return (arr[lowMiddle] + arr[highMiddle]) / 2;
+}
