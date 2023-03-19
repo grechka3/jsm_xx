@@ -233,3 +233,11 @@ exports.median = (arr) =>
    let highMiddle = Math.ceil((arr.length - 1) / 2)
    return (arr[lowMiddle] + arr[highMiddle]) / 2;
 }
+
+exports.replaceDoubleSpace = (str) => 
+{
+  while (str.includes("  ")) {
+    str = str.replace(/ {2}/g, " ");
+  }
+  return str;
+}
